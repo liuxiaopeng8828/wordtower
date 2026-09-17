@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 词塔图标：宣纸底 + 朱砂三层塔 + 鎏金顶 -->
+  <rect width="512" height="512" rx="96" fill="#F5F0E6"/>
+  <rect x="24" y="24" width="464" height="464" rx="76" fill="none" stroke="#2E4E68" stroke-width="10"/>
+  <!-- 塔顶 -->
+  <circle cx="256" cy="88" r="14" fill="#B8860B"/>
+  <path d="M256 102 L256 130" stroke="#2E4E68" stroke-width="10"/>
+  <!-- 第三层（顶） -->
+  <path d="M206 140 L306 140 L286 200 L226 200 Z" fill="#C23A2B"/>
+  <rect x="244" y="158" width="24" height="30" rx="4" fill="#F5F0E6"/>
+  <!-- 第二层 -->
+  <path d="M186 210 L326 210 L306 276 L206 276 Z" fill="#2E4E68"/>
+  <rect x="240" y="230" width="32" height="34" rx="4" fill="#F5F0E6"/>
+  <!-- 第一层（底） -->
+  <path d="M166 286 L346 286 L326 356 L186 356 Z" fill="#C23A2B"/>
+  <rect x="236" y="306" width="40" height="40" rx="4" fill="#F5F0E6"/>
+  <!-- 底座 -->
+  <rect x="150" y="366" width="212" height="26" rx="8" fill="#B8860B"/>
+  <!-- 两侧点缀：单词飘片 -->
+  <text x="120" y="180" font-family="serif" font-size="44" font-weight="bold" fill="#2E4E68" transform="rotate(-12 120 180)">A</text>
+  <text x="372" y="240" font-family="serif" font-size="44" font-weight="bold" fill="#C23A2B" transform="rotate(10 372 240)">a</text>
+</svg>
