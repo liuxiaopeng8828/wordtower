@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#2E4E68" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <title>词塔 WordTower</title>
+  <script type="module" crossorigin src="/wordtower/assets/index-C0pJStP0.js"></script>
+  <link rel="stylesheet" crossorigin href="/wordtower/assets/index-C-NnGwAx.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    // PWA：注册离线缓存（HTTPS 下生效）
+    if ('serviceWorker' in navigator && location.protocol === 'https:') {
+      addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}))
+    }
+  </script>
+</body>
+</html>
